@@ -1,0 +1,84 @@
+body,html{
+    margin: 0px;
+    position: absolute;
+  }
+body {
+    font-family: Arial, sans-serif;
+}
+.nav navbar-nav{
+    color: white;
+}
+a:hover{
+    color:black;
+}
+.container{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+.navbar-brand{
+    font-size:30px;
+}
+.details:hover{
+    text-decoration: underline;
+    color:hsla(0, 0%, 100%, 0.479);
+}
+.img-container{
+    margin-top: 130px;
+    width: 100%;
+    overflow-x: hidden;
+    white-space: nowarp;
+    position: relative;
+}
+.img-container img{
+    width: 1100px;
+    height: 500px;
+    margin-right: 10px;
+    border: 15px solid transparent;
+} 
+.arrow{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 5px;
+}
+.arrow.left {
+    margin-left: 90px;
+    left: 0;
+}
+.arrow.right {
+    margin-right: 10px;
+    right: 0;
+}
+#rvrjc{
+    margin-left: 90px;
+}
+.sub-heading{
+    font-weight: bold;
+    color:#28B463;
+    text-align: center;
+    text-decoration: underline;
+}
+.sub-content{
+    font-size: 18px;
+    line-height: 1.6;
+    margin-left: 90px;
+    margin-right: 10px;
+    text-align: justify;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#know-more-click,#know-less-click{
+    color: #28B463;
+    font-size: 18px;
+    cursor: pointer;
+}
+#know-more-button:hover{
+    background-color: #09873d;
+}
+#achievements-image{
+    margin-left: 90px;
+    height: 300px;;
+}

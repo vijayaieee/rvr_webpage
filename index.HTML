@@ -4,61 +4,81 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>RVRJCCE Page</title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-  }
-  .green-underline {
-    color: #28B463;
-    text-decoration: underline;
-    text-align: center;
-    font-weight:bold;
-  }
-  .green-underline2{
-    color:#28B463;
-    text-decoration: underline;
-    font-weight: bold;
-    text-align:left;
-  }
-.justifypara{
-text-align:justify;
-}
-</style>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<h1 class="green-underline">RVRJCCE</h1>
-<h2 class="green-underline2"> About RVRJCCE</h2>
-<p class="justifypara">Welcome to the RVRJCCE webpage! RVRJCCE stands for R.V.R & J.C College of Engineering. It is an engineering college located in Guntur, Andhra Pradesh, India. The college offers various undergraduate and postgraduate programs in engineering, as well as research opportunities.Established by the renowned Nagarjuna Education Society (1967) in the year 1985, the College drew its initial impetus from people's representatives, local doctors, charitable trusts and commercial houses of Guntur District.</p>
-<p class="justifypara">Today, it enjoys flagship status among the eight constituent institutions that are governed by Nagarjuna Education Society.The founder-members of Nagarjuna Education Society and their successors have provided abundant inputs to turn a mere 3 programmes -180-intake College into a 16 programmes -1428 - intake by the 2020. The premier status of the institution is made possible by sticking to our core-principles of student-focus, Human Resource Development and emphasis on total quality.</p>
-<h2 class="green-underline2">Achievements</h2>
-<div class="timeline">
-  <div class="timeline-item">
-    <div class="timeline-content">
-      <h3>2015</h3>
-      <p>Received Best Student Award</p>
+  <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color:#28B463;">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <img src="https://bridge.ictacademy.in/vijayawada2017/images/assets/rvr_logo.jpg" width="300px" style="margin-left: 50px;">
     </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav" style="font-size: 20px;margin-top: 35px;margin-left: 50px;">
+        <li class="details"><a href="#about" style="color:white">About</a></li>
+        <li class="details"><a href="#achievements" style="color:white">Achievements</a></li>
+        <li class="details"><a href="#awards" style="color:white">Awards</a></li>
+        <li class="details"><a href="#ieee" style="color:white">IEEE</a></li>
+        <li class="details"><a href="#Events" style="color:white">IEEE Events</a></li>
+        <li class="details"><a href="#ieeeAwards" style="color:white">IEEE Awards</a></li>
+      </ul>
+  </div>	  
+</nav>
+<div class="img-container">
+<div class="arrow left" onclick="scrollBack()">&#10094;</div>
+<div class="arrow right" onclick="scrollRight()">&#10095;</div>
+  <img src="https://www.collegebatch.com/static/clg-gallery/rvr-jc-college-of-engineering-guntur-248635.jpg" alt="rvrjc1" id="rvrjc">
+</div>
+<section id="about">
+  <h2 class="sub-heading">ABOUT</h2><br>
+  <p class="sub-content">Welcome to the RVRJCCE webpage! RVRJCCE stands for R.V.R & J.C College of Engineering. It is an engineering college located in Guntur, Andhra Pradesh, India. The college offers various undergraduate and postgraduate programs in engineering, as well as research opportunities.Established by the renowned Nagarjuna Education Society (1967) in the year 1985, the College drew its initial impetus from people's representatives, local doctors, charitable trusts and commercial houses of Guntur District.</p>
+  <p class="sub-content">R.V.R. & J.C. College of Engineering is affiliated to AcharyaNagarjuna University (ANU), Nagarjuna Nagar, Guntur since it's inception. It is one among the pioneering institute affiliated to AcharyaNagarjuna University (ANU).</p>
+  <p class="sub-content">Today, it enjoys flagship status among the eight constituent institutions that are governed by Nagarjuna Education Society.The founder-members of Nagarjuna Education Society and their successors have provided abundant inputs to turn a mere 3 programmes -180-intake College into a 16 programmes -1428 - intake by the 2020. The premier status of the institution is made possible by sticking to our core-principles of student-focus, Human Resource Development and emphasis on total quality.
+  <span id="know-more-click">more...</span></p><p id="know-more"></p>
+</section>
+<section id="achievements">
+  <h2 class="sub-heading">ACHIEVEMENTS</h2>
+  <ul class="sub-content" style="list-style-type:circle;">
+    <li>"ANVESHANA - A National Level Prototype Competition 2024" Secured First Prize  for Prototype " Absorption of Textiles Dyes using Bio-active Filter Beds" on 23/2/2024</li>
+    <li>Team Falcon Racers  E-Bike won "Lightest Weight Award, Future Award" at "LUMINOUS SIEP E-BIKE Challenge Season 4.0" conducted by "ISIE INDIA" at "IES University Bhopal" from Jan 24-28, 2024.</li>
+    <li>Dr. K. Shobha, Dept of Chemical secured First place for her Innovative project at IIC Regional Meet 2023.</li>
+    <li>College Boys Basketball team won the Championship in ANU Intercollegiate Basketball Tournament held on 6,7 November 2023.</li>
+    <li>"Best IETE chapter Award" By IETE Vijayawada Chapter on 21 March 2023</li>
+    <li>College Boys Cricket Team won " Winner Rolling Trophy" at "ANU Intercollegiate Cricket Tournament"</li>
+    <li>Awarded with "AAA" Rating Thrice and National Wide Top 9 rank among NPTEL Swayam Chapters</li>
+    <li>Won the Championship at ANU Intercollegiate "Girls Chesa Championship - 2023"</li>
+    <li>College Girls ANU Intercollegiate Girls Table Tennis Tournament</li>
+    <li>Team Falcon Racers E-Bike Team won "Best Innovation", "Fair Play Award", "Overall Static Winner" Awards at "National Level E-Bike Design Chellenge" Organised by SRIT Institute of Technology, Coimbatore.</li>
+    <li>Won the Championship at ANU Intercollegiate "Girls Chesa Championship - 2022"</li>
+    <li>College Baseball Team won "winners Trophy" at ANU Intercollegiate Men's Baseball Tournament</li>
+    <li>College Basketball team won rolling trophy at DSR Memorial Open Basketball Tournament</li>
+    <li>Team Falcon Racers eBaja 2020 received Dronacharya Award by SAE INDIA in Electric Vehicle Category.</li>
+  </ul>
+  <div id="achievements-image">
+  <img src="https://scontent.cdninstagram.com/v/t51.29350-15/424792997_793679212594603_3248780578554769541_n.webp?stp=dst-jpg&_nc_cat=105&ccb=1-7&_nc_sid=18de74&_nc_ohc=IiO2dvxOk3UAX9z8uRo&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=00_AfDj1hougdfa0zZUXyR_tiIwGp61hucYge-vq2n5s06Ipg&oe=65F364F4" width="300px" style="margin-left: 50px;" >
+  <img src="https://scontent.cdninstagram.com/v/t51.29350-15/431236606_716254884020569_7313419950439321367_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=18de74&_nc_ohc=OBoGDTHDshMAX9ubDtv&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=00_AfCCVDxaUa3hLy8Kqxi_EiFzqYsw71wna1LoBhZ6U2-wkQ&oe=65F48168" width="300px" style="margin-left: 50px;">
+  <img src="https://scontent.cdninstagram.com/v/t51.29350-15/430721744_1091486672003260_3444009726775462832_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=18de74&_nc_ohc=Vr2tjN5LWCcAX-gtu6F&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=00_AfDrvUbjSBh3fiXiK8Yc_PkzI58j1QKPslQ8e1RvVZ3A1w&oe=65F44259" width="300px" style="margin-left: 50px;">
+  <img src="https://scontent.cdninstagram.com/v/t51.29350-15/426366148_340189972337476_287397644590286792_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=18de74&_nc_ohc=tWJuO0Y1F0EAX_W1y22&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=00_AfDQqppcXrOaT5O30LvJ7XB01-XTK8XVxx0vjOiNfNIoeQ&oe=65F2D7D5" width="300px" style="margin-left: 50px;">
+  <img src="https://scontent.cdninstagram.com/v/t51.29350-15/426723722_924621102568218_5284362704945854408_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=18de74&_nc_ohc=5lsLFdstGqYAX_TMM3u&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=00_AfBVY0ZkZzC1DDGao0kXodwFOjyg-AXUUlAyw26MUwbFkg&oe=65F2E813" width="300px" style="margin-left: 50px;">
+  <img src="https://scontent.cdninstagram.com/v/t51.29350-15/420499105_1406176783332624_8693367746932840669_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=18de74&_nc_ohc=dB6EpI0tPAUAX-R2dqg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=00_AfDwOHAx0zDTiNq-xdkeolV7Y2nNEMgpTHihPmLB8yFFzA&oe=65F3C4CC" width="300px" style="margin-left: 50px;">
+  <img src="https://scontent.cdninstagram.com/v/t51.29350-15/408465697_1412587692625978_6490259424811633683_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=18de74&_nc_ohc=eXjpcrjBk0YAX-zN2rk&_nc_ht=scontent.cdninstagram.com&oh=00_AfBCobbFeVtHiv2tIw5nIlZ9Jn2mgGpCm-hqE4A7-xnP-Q&oe=65F48AC4" width="300px" style="margin-left: 50px;">
+  <img src="https://scontent.cdninstagram.com/v/t51.29350-15/331827264_529736935968237_6095873067668627917_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=18de74&_nc_ohc=aZ1d6j1XN9IAX93MrqE&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=00_AfD0A3WBolBrw3f_4ETFj0QffdkpBWo6Gc-4ABaXLv5-Rw&oe=65F3564D" width="300px" style="margin-left: 50px;">
+  <img src="https://scontent.cdninstagram.com/v/t51.29350-15/329113701_1333411560838058_5061512292750719751_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=18de74&_nc_ohc=duB4q8Aj2F4AX_AJY2h&_nc_ht=scontent.cdninstagram.com&oh=00_AfCoYew60KLf7EvBVuBzlJVqjVJ4HYWJzAJCynQ4rHNU1w&oe=65F2EB88" width="300px" style="margin-left: 50px;">
+ 
   </div>
-  <div class="timeline-item">
-    <div class="timeline-content">
-      <h3>2017</h3>
-      <p>Won First Prize in Science Fair</p>
-    </div>
-  </div>
-  <h2 style="color:#28B463;">IEEE RVRJCCE STUDENT BRANCH</h2>
-  <div class="timeline">
-    <div class="timeline-item">
-      <div class="timeline-content">
-        <h3>2015</h3>
-        <p>Received Best Student Award</p>
-      </div>
-    </div>
-    <div class="timeline-item">
-      <div class="timeline-content">
-        <h3>2017</h3>
-        <p>Won First Prize in Science Fair</p>
-      </div>
-    </div>
+  </section>
+  
 
+  
+
+</section>
+<script src="scroll.js"></script>
 </html>
 
